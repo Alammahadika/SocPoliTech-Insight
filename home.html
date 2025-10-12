@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Services | SocPoliTech Insight{% endblock %}
+
+{% block content %}
+<section class="core-services" style="max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem; text-align: center;">
+  <h2 style="font-size: 2rem; font-weight: 700; color: #333; margin-bottom: 1rem;">
+    🧭 Core Services
+  </h2>
+  <p style="font-size: 1.1rem; color: #444; line-height: 1.6;">
+    <strong>SocPoliTech Insight</strong> transforms complex socio-political data into clear, actionable knowledge.  
+    Through our integrated services, we empower researchers, policymakers, and institutions to navigate the intersection of data, society, and governance.
+  </p>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+    <div style="background-color: #ede8ff; padding: 1.5rem; border-radius: 12px;">
+      <h3 style="color: #4b3fc2; font-weight: 700;">📊 Data Collection & Scraping</h3>
+      <p style="color: #333;">Gathering structured and unstructured data from digital platforms, public institutions, and open databases to build comprehensive datasets.</p>
+    </div>
+
+    <div style="background-color: #fff7d6; padding: 1.5rem; border-radius: 12px;">
+      <h3 style="color: #d4a017; font-weight: 700;">🧠 Analysis & Insight</h3>
+      <p style="color: #333;">In-depth quantitative and qualitative analysis to uncover behavioral patterns, policy trends, and narrative dynamics.</p>
+    </div>
+
+    <div style="background-color: #d6f6ff; padding: 1.5rem; border-radius: 12px;">
+      <h3 style="color: #0fa3b1; font-weight: 700;">🔄 Update Monitoring</h3>
+      <p style="color: #333;">Continuous tracking of evolving actors, issues, and topics to ensure insights stay relevant in a changing landscape.</p>
+    </div>
+  </div>
+
+  <h3 style="margin-top: 3rem; font-size: 1.6rem; color: #333;">💼 Consulting, Analysis & Research Support</h3>
+  <p style="color: #555; line-height: 1.6; max-width: 750px; margin: 0.5rem auto 2rem;">
+    <strong>SocPoliTech Insight</strong> offers customized research assistance and analytical consulting across three domains:
+  </p>
+
+  <div style="display: flex; flex-direction: column; gap: 1.2rem; max-width: 750px; margin: 0 auto;">
+    <div style="background-color: #f8f9fc; border-left: 6px solid #4b3fc2; padding: 1.2rem 1.5rem; border-radius: 10px; text-align: left; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+      <h4 style="font-weight: 700; font-size: 1.2rem; color: #4b3fc2;">📑 Consulting & Reporting</h4>
+      <p style="color: #333; margin-top: 0.4rem;">Tailored reports and strategic consultations to support research, institutional, and policy goals.</p>
+    </div>
+
+    <div style="background-color: #f8f9fc; border-left: 6px solid #0fa3b1; padding: 1.2rem 1.5rem; border-radius: 10px; text-align: left; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+      <h4 style="font-weight: 700; font-size: 1.2rem; color: #0fa3b1;">📈 Data Analysis</h4>
+      <p style="color: #333; margin-top: 0.4rem;">In-depth exploration of trends and behaviors through mixed-methods analysis — combining data science with social research.</p>
+    </div>
+
+    <div style="background-color: #f8f9fc; border-left: 6px solid #d4a017; padding: 1.2rem 1.5rem; border-radius: 10px; text-align: left; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+      <h4 style="font-weight: 700; font-size: 1.2rem; color: #d4a017;">🔬 Research Support</h4>
+      <p style="color: #333; margin-top: 0.4rem;">Providing tools and raw datasets for academics, think tanks, government agencies, and NGOs conducting socio-political studies.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<footer style="margin-top: 4rem; background-color: #0b0f1a; color: #e5e7eb; padding: 3rem 1.5rem; border-radius: 24px 24px 0 0;">
+  <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+
+    <!-- LOGO KECIL -->
+    <div style="margin-bottom: 1rem;">
+      <img src="{% static 'SocPoliTech_Logo/SocPoliTech-logo.png' %}" alt="SocPoliTech Logo" style="height: 70px; opacity: 0.9;">
+    </div>
+
+    <h3 style="font-size: 1.6rem; font-weight: 700; margin-bottom: 0.5rem;">
+      📫 Contact
+    </h3>
+
+    <p style="margin: 0.3rem 0; color: #cbd5e1;">Indonesia</p>
+    <p style="margin: 0.3rem 0; color: #9ca3af;">15:46 (UTC -12:00)</p>
+
+    <p style="margin: 0.5rem 0;">
+      <a href="mailto:alam.mahadika.psm@umy.ac.id" style="color: #60a5fa; text-decoration: none;">
+        alam.mahadika.psm@umy.ac.id
+      </a>
+    </p>
+
+    <p style="margin: 0.3rem 0;">
+      <a href="https://orcid.org/0000-0001-5206-8769" target="_blank" style="color: #60a5fa; text-decoration: none;">
+        ORCID: 0000-0001-5206-8769
+      </a>
+    </p>
+
+    <!-- SOCIAL LINKS -->
+    <div style="margin-top: 1.2rem; display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem;">
+      <a href="https://x.com/mahadika_alam" target="_blank" style="color: #93c5fd; text-decoration: none;">@mahadika_alam (X)</a>
+      <span style="color: #6b7280;">|</span>
+      <a href="https://instagram.com/alam_mahadika" target="_blank" style="color: #93c5fd; text-decoration: none;">alam_mahadika (Instagram)</a>
+      <span style="color: #6b7280;">|</span>
+      <a href="https://github.com/Alammahadika" target="_blank" style="color: #93c5fd; text-decoration: none;">Alammahadika (GitHub)</a>
+    </div>
+
+    <p style="margin-top: 2rem; font-size: 0.9rem; color: #6b7280;">
+      © 2025 SocPoliTech Insight — Bridging Society, Politics & Technology
+    </p>
+  </div>
+</footer>
+{% endblock %}
+
+
+
+

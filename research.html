@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}Data Focus & Applications | SocPoliTech Insight{% endblock %}
+
+{% block content %}
+<section style="max-width: 1100px; margin: 0 auto; padding: 3rem 1.5rem; text-align: center;">
+  <h1 style="font-size: 2rem; font-weight: 700; color: #222;">Data Focus & Applications</h1>
+  <p style="max-width: 750px; margin: 1rem auto 2rem; color: #444; line-height: 1.6;">
+    Our research and data analysis focus on exploring socio-political, economic, and digital transformations through 
+    evidence-based insights and tailored datasets.
+  </p>
+
+  <div class="data-sections">
+    <div class="data-card" style="background-color:#b39ddb;">
+      <h3>Political & Governance Insight</h3>
+      <p>Monitoring political activities, public policy trends, and institutional dynamics.</p>
+    </div>
+
+    <div class="data-card" style="background-color:#ef9a9a;">
+      <h3>Economic & Business Data</h3>
+      <p>Collecting data from marketplaces, companies, and public economic databases to identify growth patterns and market behaviors.</p>
+    </div>
+
+    <div class="data-card" style="background-color:#a5d6a7;">
+      <h3>Social Dynamics & Public Issues</h3>
+      <p>Mapping key social phenomena – including community movement, public databases, and social change indicators.</p>
+    </div>
+
+    <div class="data-card" style="background-color:#80deea;">
+      <h3>Media & Information Ecosystem</h3>
+      <p>Analyzing narrative, framing, and sentiment across digital and traditional media channels.</p>
+    </div>
+
+    <div class="data-card center-row" style="background-color:#fff59d;">
+      <h3>Data for Decision Support</h3>
+      <p>Providing tailored datasets and analytical insights for stakeholders in research policy and business development.</p>
+    </div>
+
+    <div class="data-card center-row" style="background-color:#b3e5fc;">
+      <h3>Technology & Innovation</h3>
+      <p>Developing tools and methods for data scraping, visualization, and AI-based analysis to enhance data accessibility and accuracy.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.data-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.data-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.data-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+.data-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.data-card p {
+  margin: 0;
+  color: #222;
+  line-height: 1.4;
+}
+
+/* Center only the last two cards on larger screens */
+@media (min-width: 900px) {
+  .center-row {
+    grid-column: span 1;
+    justify-self: center;
+    width: 80%;
+  }
+}
+</style>
+{% endblock %}
