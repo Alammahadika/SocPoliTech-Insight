@@ -1,0 +1,147 @@
+{% extends "base.html" %}
+
+{% block title %}Home | SocPoliTech Insight{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-content">
+    <h1>Welcome to <span class="highlight">SocPoliTech Insight</span></h1>
+    <p class="subtitle">
+      Bridging <strong>social research</strong>, <strong>politics</strong>, and <strong>technology</strong> 
+      through data-driven insights and collaborative analysis.
+    </p>
+    <a href="{% url 'research' %}" class="btn-primary">Explore Research</a>
+  </div>
+</section>
+
+<section class="intro">
+  <h2>What We Do</h2>
+  <p>
+    SocPoliTech Insight connects the dots between data, policy, and people.  
+    We analyze patterns of migration, digital governance, and socio-political change 
+    to support better, evidence-based public decisions.
+  </p>
+
+  <div class="focus-cards">
+    <div class="card" style="background:#e3f2fd;">
+      <h3>Policy Research</h3>
+      <p>We examine government policies and social transformations using data and critical perspectives.</p>
+    </div>
+    <div class="card" style="background:#fce4ec;">
+      <h3>Data Visualization</h3>
+      <p>Turning complex datasets into accessible, meaningful visual narratives.</p>
+    </div>
+    <div class="card" style="background:#e8f5e9;">
+      <h3>Digital Governance</h3>
+      <p>Understanding how digital tools shape governance, communication, and public participation.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Join the Dialogue</h2>
+  <p>Collaborate with us in building an informed and inclusive digital society.</p>
+  <a href="{% url 'about' %}" class="btn-secondary">Learn More</a>
+</section>
+
+<style>
+.hero {
+  background: linear-gradient(135deg, #f9fafb, #f3f4f6);
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.2rem;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+.highlight {
+  color: #2b4b80;
+}
+.subtitle {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+.btn-primary {
+  background-color: #2563eb;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+.btn-secondary {
+  background-color: #2b4b80;
+  color: #fff;
+}
+.btn-secondary:hover {
+  background-color: #1f3660;
+}
+
+.intro {
+  max-width: 1000px;
+  margin: 4rem auto;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+.intro h2 {
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+.intro p {
+  color: #374151;
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+
+.focus-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.card {
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+  text-align: left;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card h3 {
+  color: #1f2937;
+  margin-bottom: 0.6rem;
+}
+.card p {
+  color: #374151;
+  font-size: 0.95rem;
+}
+
+.cta {
+  background-color: #f9fafb;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  margin-top: 4rem;
+}
+.cta h2 {
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+.cta p {
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+</style>
+{% endblock %}
