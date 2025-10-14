@@ -1,3 +1,4 @@
+![](SocPoliTech_Logo/SocPoliTech-logo-transparent.png)
 # 🌐 SocPoliTech Insight
 
 **💼 Consulting, Analysis & Research Support**
