@@ -1,4 +1,4 @@
-<img src="SocPoliTech_Logo/SocPoliTech-logo-transparent.png" alt="SocPoliTech Logo" width="500" style="display: block; margin: auto;" />
+<img src="SocPoliTech_Logo/SocPoliTech-horizontal.png" alt="SocPoliTech Logo" width="1000" style="display: block; margin: auto;" />
 
 
 # 🌐 SocPoliTech Insight
