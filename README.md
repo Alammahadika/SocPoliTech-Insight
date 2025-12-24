@@ -1,65 +1,67 @@
-<img src="SocPoliTech_Logo/SocPoliTech-horizontal.png" alt="SocPoliTech Logo" width="1000" style="display: block; margin: auto;" />
 
+# General Insight
 
-# 🌐 SocPoliTech Insight
+**Research, Data Analysis & Decision Support**
 
-**💼 Consulting, Analysis & Research Support**
-
-SocPoliTech Insight offers customized research assistance and analytical consulting across three domains — connecting **social research**, **data science**, and **public policy**.
+General Insight provides customized analytical and research support across multiple sectors by integrating data analysis, research methodology, and decision-oriented insights.
 
 ---
 
-## 📑 What We Do
+## What We Do
 
-### 🧭 Consulting & Reporting  
-Tailored reports and strategic consultations to support research, institutional, and policy goals.
+### Analysis & Reporting
+Structured reports and analytical briefs to support organizational, academic, and strategic needs.
 
-### 📈 Data Analysis  
-In-depth exploration of trends and behaviors through **mixed-methods analysis** — combining data science with social research.
+### Data Exploration
+In-depth analysis of patterns, trends, and behaviors using quantitative, qualitative, and mixed-method approaches.
 
-### 🔬 Research Support  
-Providing **tools, visualizations, and raw datasets** for academics, think tanks, government agencies, and NGOs conducting socio-political studies.
+### Research & Data Support
+Providing datasets, analytical tools, and visualizations for researchers, institutions, and organizations working with complex data.
 
 ---
 
-## 🔍 Data Focus & Applications
+## Areas of Insight & Application
 
 | Domain | Description |
-|--------|--------------|
-| 🏛️ **Political & Governance Insight** | Monitoring political activities, public policy trends, and institutional dynamics. |
-| 💰 **Economic & Business Data** | Analyzing growth patterns and market behaviors. |
-| 🧩 **Social Dynamics & Public Issues** | Mapping key social phenomena and community movements. |
-| 📰 **Media & Information Ecosystem** | Analyzing narratives, framing, and sentiment across media channels. |
-| 🧮 **Decision Support** | Providing analytical insights for policy and business development. |
-| 💻 **Technology & Innovation** | Developing tools for data scraping, visualization, and AI-based analysis. |
+|------|-------------|
+| Trend & Pattern Analysis | Identifying dynamics across social, economic, and institutional data. |
+| Behavioral & Contextual Insight | Understanding narratives, perceptions, and collective responses. |
+| Information & Media Analysis | Examining content, discourse, and sentiment across information channels. |
+| Organizational & Strategic Insight | Supporting planning, evaluation, and decision-making processes. |
+| Knowledge & Evidence Support | Turning raw data into structured, usable knowledge. |
+| Data & Technology Solutions | Developing tools for data collection, processing, and visualization. |
 
 ---
 
-## 🌍 About SocPoliTech Insight
+## About General Insight
 
-**SocPoliTech Insight** bridges the worlds of **social research**, **data science**, and **public policy** — helping institutions and communities understand and act upon complex socio-political data.
+General Insight is a research-driven initiative focused on transforming complex data into clear, usable, and actionable insights.
 
-> “Data is not just numbers — it’s a dialogue between policy, people, and technology.”
+We work at the intersection of data, context, and interpretation to help individuals and organizations better understand their environments and make informed decisions.
 
----
-
-## 🌟 Vision
-To be a trusted hub for socio-political data insights — empowering knowledge exchange and policy transformation.
-
-## 🎯 Mission
-- Transform complex data into actionable insights.  
-- Strengthen evidence-based decision-making.  
-- Promote transparency and open access.
-
-## 💡 Philosophy
-At **SocPoliTech Insight**, we believe that **data is a medium for dialogue**.  
-Through innovative tools and open knowledge, we aim to make socio-political understanding more **inclusive, transparent, and actionable**.
+> Insight begins when data meets understanding.
 
 ---
 
-## 🧰 Technologies & Tools
-This project integrates:
-- **R / Python** for data analysis & visualization  
-- **Next.js / React / TailwindCSS** for web interface  
-- **APIs & Web Scraping Tools** for data collection  
-- **AI/NLP Models** for discourse and sentiment analysis  
+## Vision
+To become a trusted platform for data-driven insight that supports informed decisions across diverse fields and sectors.
+
+## Mission
+- Translate complex data into clear insights.
+- Support evidence-based thinking and analysis.
+- Enable informed decisions through accessible research outputs.
+
+## Core Philosophy
+At General Insight, data is treated as a tool for understanding rather than merely information.
+
+Through careful analysis and transparent methods, we aim to make insight accessible, reliable, and meaningful.
+
+---
+
+## Technologies & Tools
+
+Our work integrates:
+- R and Python for data analysis and visualization
+- Web-based dashboards and interfaces (Next.js, React, TailwindCSS)
+- Data collection and automation tools (APIs, web scraping)
+- AI and NLP models for text, discourse, and sentiment analysis
